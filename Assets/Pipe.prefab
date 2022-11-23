@@ -300,8 +300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5257676250330458888}
-  - component: {fileID: 5257676250330458891}
-  - component: {fileID: 5257676250330458890}
+  - component: {fileID: 2295770918400727114}
   m_Layer: 0
   m_Name: Pipe
   m_TagString: Untagged
@@ -329,7 +328,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5257676250330458891
+--- !u!114 &2295770918400727114
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -338,28 +337,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5257676250330458885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c03da6a8de596041bb00ddcc5d12aa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
---- !u!114 &5257676250330458890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5257676250330458885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 1106b9be8e4aa3541aee6eaf1527930c, type: 2}
 --- !u!1 &5972161345101823037
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,7 +451,7 @@ GameObject:
   - component: {fileID: 4693029463396926338}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: scorepipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
